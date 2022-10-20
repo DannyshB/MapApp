@@ -19,8 +19,15 @@ export default function App() {
             Let's begin your journey!
         </Text>
       </View>
-      <TouchableOpacity style={{backgroundColor:'#AD70AF', padding:20, width: '90%', borderRadius:5, flexDirection: 'row', justifyContent:'space-between'}}>
-        <Text style={{fontWeight: 'bold', fontSize:18,color: '#fff'}}>Let's Go</Text>
+      <TouchableOpacity style={{
+        backgroundColor:'#AD70AF', 
+        padding:20, width: '90%', 
+        borderRadius:5, 
+        flexDirection: 'row', 
+        justifyContent:'space-between'}}>
+        <Text style={{fontWeight: 'bold',
+         fontSize:18,
+         color: '#fff'}}>Let's Go</Text>
         <MaterialIcons name="arrow-forward-ios" size={22} color="#fff" />
       </TouchableOpacity>
     </SafeAreaView>
